@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.0.2" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="NLog" Version="4.7.5" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.2" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XMLApp.Application.Abstraction\XMLApp.Application.Abstraction.csproj" />
+    <ProjectReference Include="..\XMLApp.Data.Abstraction\XMLApp.Data.Abstraction.csproj" />
+    <ProjectReference Include="..\XMLApp.Data.Repositories\XMLApp.Data.Repositories.csproj" />
+    <ProjectReference Include="..\XMLApp.Dictionaries\XMLApp.Dictionaries.csproj" />
+    <ProjectReference Include="..\XMLApp.Domain\XMLApp.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XMLApp.Data.Abstraction\XMLApp.Data.Abstraction.csproj" />
+    <ProjectReference Include="..\XMLApp.Domain\XMLApp.Domain.csproj" />
+    <ProjectReference Include="..\XMLApp.EntityFramewrok\XMLApp.EntityFramewrok.csproj" />
+  </ItemGroup>
+
+</Project>

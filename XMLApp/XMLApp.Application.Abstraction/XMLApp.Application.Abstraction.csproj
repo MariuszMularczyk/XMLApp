@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.2" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XMLApp.Data.Abstraction\XMLApp.Data.Abstraction.csproj" />
+    <ProjectReference Include="..\XMLApp.Dictionaries\XMLApp.Dictionaries.csproj" />
+    <ProjectReference Include="..\XMLApp.Domain\XMLApp.Domain.csproj" />
+    <ProjectReference Include="..\XMLApp.Infrastructure\XMLApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\XMLApp.Resources\XMLApp.Resources.csproj" />
+  </ItemGroup>
+
+</Project>
